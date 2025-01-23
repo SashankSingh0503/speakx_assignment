@@ -105,7 +105,7 @@ transporter.sendMail(mailOptions, (error, info) => {
     })
 
     app.post("/search", async (req, res) => {
-        console.log(req.body); 
+        // console.log(req.body); 
         const { query, page = 1, limit = 10 } = req.body; 
     
         try {
